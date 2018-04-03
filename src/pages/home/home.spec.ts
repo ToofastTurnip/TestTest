@@ -55,16 +55,16 @@ describe('Page: Home Page', () => {
         expect(comp['title']).toEqual('My Page');
     });
 
-    it('can set the title to a supplied value', () => {
+    // it('can set the title to a supplied value', () => {
 
-        de = fixture.debugElement.query(By.css('ion-title'));
-        el = de.nativeElement;  
+    //     de = fixture.debugElement.query(By.css('ion-title'));
+    //     el = de.nativeElement;  
 
-        comp.changeTitle('Your Page');
-        fixture.detectChanges();
-        expect(comp['title']).toEqual('Your Page');
-        expect(el.textContent).toContain('Your Page');
+    //     comp.changeTitle('Your Page');
+    //     fixture.detectChanges();
+    //     expect(comp['title']).toEqual('Your Page');
+    //     expect(el.textContent).toContain('Your Page');
 
-    });
+    // });
 
 });
